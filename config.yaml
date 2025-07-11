@@ -1,4 +1,40 @@
-baseURL: "http://hugo-quickstart-template.netlify.com"
+baseURL: "https://saralysis.online/"
 languageCode: "en-us"
-title: "Netlify + Hugo Quickstart"
-theme: "netlify-basic"
+title: "Saralysis | Sara Omar"
+theme: "PaperMod"
+
+params:
+  homeInfoParams:
+    Title: "Hi, I'm Sara 👋"
+    Content: |
+      Im a data analyst passionate about dashboards, insights, and turning data into strategy.
+      💡 Power BI, Excel, Tableau, Python, AI tools.
+  assets:
+    favicon: "/images/logo.ico"
+
+
+
+
+  socialIcons:
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/sara-omar54/"
+    - name: "email"
+      url: "mailto:info@saralysis.online"
+    - name: "whatsapp"
+      url: "https://wa.me/5491138881348"
+
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 1
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 2
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 3
